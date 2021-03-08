@@ -29,20 +29,22 @@ arguments:
 ```
 
 The output file is tab-delimited and has 9 columns:
-chrom: Reference chromosome
-pos: Reference position
-ref: Reference sequence
-alt: Alternate (variant) sequence
-variant_type: Variant type composed of one or two items separated by ','. The first item comes 
-    from the VCF file and is either snp, mnp, ins, del or complex. The optional 
-    second item is a Sequence Ontology (SO) term that describes the consequence 
-    of the variant, if the variant is in the ExAC database. If several SO terms 
-    are possible, only the most severe one is reported.
-seq_depth: Depth of sequence coverage at the site of variation
-num_variant_reads: Number of reads supporting the variant
-pct_variant_reads: Percentage of reads supporting the variant versus those 
-    supporting the reference
-exac_allele_freq: Allele frequency of variant from Broad Institute ExAC Project
+chrom:              Reference chromosome
+pos:                Reference position
+ref:                Reference sequence
+alt:                Alternate (variant) sequence
+variant_type:       Variant type composed of one or two items separated by ','. 
+                    The first item comes from the VCF file and is either snp, 
+                    mnp, ins, del or complex. The optional second item is a 
+                    Sequence Ontology (SO) term that describes the consequence 
+                    of the variant, if the variant is in the ExAC database. 
+                    If several SO terms are possible, only the most severe 
+                    one is reported
+seq_depth:          Depth of sequence coverage at the site of variation
+num_variant_reads:  Number of reads supporting the variant
+pct_variant_reads:  Percentage of reads supporting the variant versus those 
+                    supporting the reference
+exac_allele_freq:   Allele frequency of variant from Broad Institute ExAC Project
 
 ```
 ## Implementation 
