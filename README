@@ -27,7 +27,8 @@ arguments:
 Annotation tool groups input variants in groups of 400 and queries using bulk
 endpoint of ExAC API. The tool improves the performance by also running queries
 asynchronously since this execution is IO bound. For the large.vcf (~7000
-variants) in testdata, this implementation takes 20s.
+variants) in testdata, this implementation takes 20s (large.vcf is the 
+Challenge_data.vcf).
 
 ## Testing
 To run unit tests run `python3.7.1 -m pytest`
