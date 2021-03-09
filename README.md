@@ -17,7 +17,7 @@ conda activate exac_va
 
 
 ```
-Usage: python3.7.1 main.py --in_vcf in.vcf --annotated_tsv out.tsv
+Usage: python3.7.1 annotate.py --in_vcf in.vcf --annotated_tsv out.tsv
 
 arguments:
   --in_vcf              Path for input VCF file to be annotated. 
