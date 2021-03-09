@@ -10,7 +10,7 @@ most deleterious possibility
 4. Percentage of reads supporting the variant versus those supporting reference
 5. Allele frequency of variant from ExAC API
 
-  Usage: python main.py --in_vcf in.vcf --annotated_tsv out.tsv
+  Usage: python annotate.py --in_vcf in.vcf --annotated_tsv out.tsv
 
 """
 
